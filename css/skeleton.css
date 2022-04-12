@@ -604,6 +604,14 @@ there.
   margin-bottom: auto;
 }
 
+.mr-2 {
+  margin-right: 10px;
+}
+
+.pt-2 {
+  padding-top: 10px;
+}
+
 .icon {
   width: 32px;
   opacity: 0.5;
@@ -618,4 +626,21 @@ there.
 
 .dec-none {
   list-style-type: none;
+}
+
+.tags-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #FFFFFF;
+  padding: 7px;
+  margin: 0 10px 15px 0;
+  border: 1px solid #743ad5;
+  border-radius: 4px;
+}
+
+.tag:hover {
+  border-color: #d53a9d;
 }

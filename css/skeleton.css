@@ -128,7 +128,7 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 62.5%;
+  font-size: 70%;
 }
 
 body {
@@ -166,6 +166,7 @@ h3 {
   font-size: 3.0rem;
   line-height: 1.4;
   letter-spacing: -.1rem;
+  color: #743ad5;
 }
 
 h4 {
@@ -643,4 +644,17 @@ there.
 
 .tag:hover {
   border-color: #d53a9d;
+}
+
+.image-border {
+  border-radius: 50%;
+  border: 2px solid #d53a9d;
+}
+
+.link {
+  color: #743ad5;
+}
+
+.link:hover {
+  color: #d53a9d;
 }
